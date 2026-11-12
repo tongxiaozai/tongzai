@@ -676,17 +676,17 @@ window.portfolioData = {
           }
         },
         {
-          "src": "./assets/projects/digital-motion/sweet-poster.webp",
+          "src": "./assets/projects/digital-motion/wardrobe-look-2.webp",
           "alt": {
-            "zh": "甜欲模特 · 成片画面",
-            "en": "Sweet-styled model film still"
+            "zh": "女装换装 · 衣柜前定帧",
+            "en": "Womenswear at the wardrobe"
           }
         },
         {
-          "src": "./assets/projects/digital-motion/drama-poster.webp",
+          "src": "./assets/projects/digital-motion/wardrobe-look-3.webp",
           "alt": {
-            "zh": "退婚书 · 雨夜庭院双人画面",
-            "en": "The two characters in the rainy courtyard"
+            "zh": "女装换装 · 窗边定帧",
+            "en": "Womenswear by the window"
           }
         }
       ],
@@ -697,8 +697,8 @@ window.portfolioData = {
       },
       "previewImages": [
         "./assets/projects/digital-motion/wardrobe-look-1.webp",
-        "./assets/projects/digital-motion/sweet-poster.webp",
-        "./assets/projects/digital-motion/drama-poster.webp"
+        "./assets/projects/digital-motion/wardrobe-look-2.webp",
+        "./assets/projects/digital-motion/wardrobe-look-3.webp"
       ],
       "previewAlts": [
         {
@@ -706,12 +706,12 @@ window.portfolioData = {
           "en": "Womenswear at the concrete wall"
         },
         {
-          "zh": "甜欲模特 · 成片画面",
-          "en": "Sweet-styled model film still"
+          "zh": "女装换装 · 衣柜前定帧",
+          "en": "Womenswear at the wardrobe"
         },
         {
-          "zh": "退婚书 · 雨夜庭院双人画面",
-          "en": "The two characters in the rainy courtyard"
+          "zh": "女装换装 · 窗边定帧",
+          "en": "Womenswear by the window"
         }
       ]
     },
