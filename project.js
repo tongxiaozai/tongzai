@@ -40,14 +40,7 @@
     image.className = 'case-hero-image';
     image.src = item.src;
     image.fetchPriority = 'high';
-    if (project.slug === 'digital-model') {
-      const frame = document.createElement('span');
-      frame.className = 'case-portrait-frame';
-      frame.append(image);
-      hero.append(frame);
-    } else {
-      hero.append(image);
-    }
+    hero.append(image);
   });
 
   function renderGallery() {

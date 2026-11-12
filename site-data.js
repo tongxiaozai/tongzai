@@ -669,49 +669,49 @@ window.portfolioData = {
       ],
       "heroImages": [
         {
-          "src": "./assets/projects/digital-motion/wardrobe-look-3.webp",
+          "src": "./assets/projects/digital-motion/wardrobe-look-1.webp",
           "alt": {
-            "zh": "窗边女装模特",
-            "en": "Womenswear model by the window"
+            "zh": "女装换装 · 水泥墙定帧",
+            "en": "Womenswear at the concrete wall"
           }
         },
         {
           "src": "./assets/projects/digital-motion/sweet-poster.webp",
           "alt": {
-            "zh": "甜欲模特",
-            "en": "Sweet-styled model"
+            "zh": "甜欲模特 · 成片画面",
+            "en": "Sweet-styled model film still"
           }
         },
         {
-          "src": "./assets/projects/digital-motion/drama-heroine-cover.webp",
+          "src": "./assets/projects/digital-motion/drama-poster.webp",
           "alt": {
-            "zh": "《退婚书》女主",
-            "en": "Heroine of The Broken Engagement"
+            "zh": "退婚书 · 雨夜庭院双人画面",
+            "en": "The two characters in the rainy courtyard"
           }
         }
       ],
-      "cover": "./assets/projects/digital-motion/wardrobe-look-3.webp",
+      "cover": "./assets/projects/digital-motion/wardrobe-look-1.webp",
       "coverAlt": {
-        "zh": "窗边女装模特",
-        "en": "Womenswear model by the window"
+        "zh": "女装换装 · 水泥墙定帧",
+        "en": "Womenswear at the concrete wall"
       },
       "previewImages": [
-        "./assets/projects/digital-motion/wardrobe-look-3.webp",
+        "./assets/projects/digital-motion/wardrobe-look-1.webp",
         "./assets/projects/digital-motion/sweet-poster.webp",
-        "./assets/projects/digital-motion/drama-heroine-cover.webp"
+        "./assets/projects/digital-motion/drama-poster.webp"
       ],
       "previewAlts": [
         {
-          "zh": "窗边女装模特",
-          "en": "Womenswear model by the window"
+          "zh": "女装换装 · 水泥墙定帧",
+          "en": "Womenswear at the concrete wall"
         },
         {
-          "zh": "甜欲模特",
-          "en": "Sweet-styled model"
+          "zh": "甜欲模特 · 成片画面",
+          "en": "Sweet-styled model film still"
         },
         {
-          "zh": "《退婚书》女主",
-          "en": "Heroine of The Broken Engagement"
+          "zh": "退婚书 · 雨夜庭院双人画面",
+          "en": "The two characters in the rainy courtyard"
         }
       ]
     },

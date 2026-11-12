@@ -110,14 +110,7 @@
         image.alt = project.previewAlts?.[index]?.[language] ?? project.heroImages?.find((item) => item.src === src)?.alt[language] ?? project.coverAlt[language];
         image.loading = 'lazy';
         image.decoding = 'async';
-        if (project.slug === 'digital-model') {
-          const frame = document.createElement('span');
-          frame.className = 'case-portrait-frame';
-          frame.append(image);
-          media.append(frame);
-        } else {
-          media.append(image);
-        }
+        media.append(image);
       }
       const content = document.createElement('div');
       content.className = 'work-content';
