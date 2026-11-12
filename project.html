@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f3ee" />
+    <meta name="description" content="WUTONG 作品案例。" />
+    <title>Project — WUTONG</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231a1a1a'/%3E%3Cpath d='m10 17 7 30 15-20 15 20 7-30' fill='none' stroke='%23f5f3ee' stroke-width='5'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css?v=40" />
+    <script src="./site-data.js?v=23" defer></script>
+    <script src="./project.js?v=20" defer></script>
+    <script src="./ambient.js?v=16" defer></script>
+  </head>
+  <body class="project-page">
+    <a class="skip-link" href="#case-content">跳至案例内容</a>
+    <header class="site-header">
+      <a class="wordmark" href="./index.html" aria-label="WUTONG 首页">WUTONG<span class="wordmark-dot">.</span></a>
+      <nav class="main-nav" aria-label="主导航"><a href="./index.html#work" data-i18n="allWorks">全部作品</a><a href="./index.html#experience" data-i18n="navExperience">经历</a><a href="./index.html#contact" data-i18n="navContact">联系</a></nav>
+      <button class="language-toggle" type="button" aria-label="Switch to English" title="Switch to English">EN <span aria-hidden="true">↗</span></button>
+    </header>
+    <main id="case-content">
+      <section class="case-hero section-shell">
+        <span class="ambient-surface" aria-hidden="true"></span>
+        <a class="case-back text-link" href="./index.html#work"><span aria-hidden="true">←</span><span data-i18n="backWorks">返回全部作品</span></a>
+        <div class="case-headline">
+          <p class="case-number">PROJECT / <span id="case-number">01</span></p>
+          <p class="case-category" id="case-category"></p>
+          <h1 id="case-title"></h1>
+          <p class="case-tagline" id="case-tagline"></p>
+        </div>
+        <div class="case-cover-wrap"></div>
+      </section>
+      <section class="case-overview section-shell">
+        <span class="ambient-surface" aria-hidden="true"></span>
+        <div class="case-overview-heading"><p class="section-index">OVERVIEW</p><h2 data-i18n="caseOverview">项目概览</h2></div>
+        <div class="case-overview-body"><p class="case-lead" id="case-summary"></p><div class="case-facts"><div><span data-i18n="caseType">项目类型</span><strong id="case-type"></strong></div><div><span data-i18n="caseOutput">交付内容</span><strong id="case-deliverables"></strong></div></div></div>
+      </section>
+      <section class="case-gallery section-shell" aria-labelledby="gallery-title">
+        <span class="ambient-surface" aria-hidden="true"></span>
+        <div class="case-gallery-head"><p class="section-index">01 / SELECTED FRAMES</p><h2 id="gallery-title" data-i18n="caseGallery">作品画面</h2></div>
+        <div id="case-video-wrap" class="case-video-wrap" hidden><div class="case-video-intro"><p class="section-index">FILM / 01—03</p><h3 data-i18n="videoSample">短片精选</h3><p data-i18n="videoNote">三段横屏样片，展示不同的财税情景与角色风格。</p></div><div id="case-video-grid" class="case-video-grid"></div></div>
+        <div id="case-script-wrap" class="case-script-wrap" hidden><div class="case-script-intro"><p class="section-index">STORY / 01—07</p><h3 data-i18n="scriptTitle">脚本与对应画面</h3><p data-i18n="scriptNote">先看完整的 0–30 秒脚本，再看三个关键画面。</p></div><figure id="case-full-script" class="case-full-script" hidden><a id="case-full-script-link" target="_blank" rel="noopener"><img id="case-full-script-image" loading="lazy" decoding="async" /></a><figcaption id="case-full-script-caption"></figcaption></figure><div id="case-script-grid" class="case-script-grid"></div></div>
+        <div id="gallery-grid" class="gallery-grid"></div>
+      </section>
+      <section class="case-story section-shell">
+        <span class="ambient-surface" aria-hidden="true"></span>
+        <div><p class="section-index">02 / CONTEXT</p><h2 data-i18n="caseChallenge">要解决的问题</h2><p id="case-brief"></p></div>
+        <div><p class="section-index">03 / APPROACH</p><h2 data-i18n="caseApproach">设计与制作</h2><p id="case-process"></p></div>
+      </section>
+      <section class="next-project section-shell"><span class="ambient-surface" aria-hidden="true"></span><p class="section-index" data-i18n="nextLabel">下一个项目</p><a id="next-link" href="#"><span id="next-title"></span><span aria-hidden="true">↗</span></a></section>
+      <nav class="case-endnav section-shell" aria-label="案例结束导航"><span class="section-index">END / PROJECT</span><a href="./index.html#work"><span aria-hidden="true">←</span><span data-i18n="backWorks">返回全部作品</span></a></nav>
+      <footer class="site-footer section-shell"><span>© 2026 WUTONG</span><span>VISUAL · AI · CONTENT</span><a href="./index.html#work" data-i18n="allWorks">全部作品 ↑</a></footer>
+    </main>
+  </body>
+</html>
