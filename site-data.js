@@ -669,49 +669,49 @@ window.portfolioData = {
       ],
       "heroImages": [
         {
-          "src": "./assets/projects/digital-motion/wardrobe-look-1.webp",
-          "alt": {
-            "zh": "女装换装 · 水泥墙定帧",
-            "en": "Womenswear at the concrete wall"
-          }
-        },
-        {
-          "src": "./assets/projects/digital-motion/wardrobe-look-2.webp",
-          "alt": {
-            "zh": "女装换装 · 衣柜前定帧",
-            "en": "Womenswear at the wardrobe"
-          }
-        },
-        {
           "src": "./assets/projects/digital-motion/wardrobe-look-3.webp",
           "alt": {
-            "zh": "女装换装 · 窗边定帧",
-            "en": "Womenswear by the window"
+            "zh": "窗边女装模特",
+            "en": "Womenswear model by the window"
+          }
+        },
+        {
+          "src": "./assets/projects/digital-motion/sweet-poster.webp",
+          "alt": {
+            "zh": "甜欲模特",
+            "en": "Sweet-styled model"
+          }
+        },
+        {
+          "src": "./assets/projects/digital-motion/drama-heroine-cover.webp",
+          "alt": {
+            "zh": "《退婚书》女主",
+            "en": "Heroine of The Broken Engagement"
           }
         }
       ],
-      "cover": "./assets/projects/digital-motion/wardrobe-look-1.webp",
+      "cover": "./assets/projects/digital-motion/wardrobe-look-3.webp",
       "coverAlt": {
-        "zh": "女装换装 · 水泥墙定帧",
-        "en": "Womenswear at the concrete wall"
+        "zh": "窗边女装模特",
+        "en": "Womenswear model by the window"
       },
       "previewImages": [
-        "./assets/projects/digital-motion/wardrobe-look-1.webp",
-        "./assets/projects/digital-motion/wardrobe-look-2.webp",
-        "./assets/projects/digital-motion/wardrobe-look-3.webp"
+        "./assets/projects/digital-motion/wardrobe-look-3.webp",
+        "./assets/projects/digital-motion/sweet-poster.webp",
+        "./assets/projects/digital-motion/drama-heroine-cover.webp"
       ],
       "previewAlts": [
         {
-          "zh": "女装换装 · 水泥墙定帧",
-          "en": "Womenswear at the concrete wall"
+          "zh": "窗边女装模特",
+          "en": "Womenswear model by the window"
         },
         {
-          "zh": "女装换装 · 衣柜前定帧",
-          "en": "Womenswear at the wardrobe"
+          "zh": "甜欲模特",
+          "en": "Sweet-styled model"
         },
         {
-          "zh": "女装换装 · 窗边定帧",
-          "en": "Womenswear by the window"
+          "zh": "《退婚书》女主",
+          "en": "Heroine of The Broken Engagement"
         }
       ]
     },
